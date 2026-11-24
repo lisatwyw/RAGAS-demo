@@ -1,0 +1,12 @@
+langchain-core
+langchain>=1.0
+langchain-google-genai>=4.0
+langchain-openai>=1.0   # also used for the optional OpenAI provider
+langchain-text-splitters>=1.0
+langgraph>=1.0
+langsmith>=0.4 # (gradio is installed by Hugging Face from README sdk_version; add it yourself for local runs)
+ragas==0.4.3 # RAGAS 0.4.x imports a module path removed in langchain-community 0.4, so keep this pin
+langchain-community<0.4
+openai>=1.50
+pandas
+python-dotenv

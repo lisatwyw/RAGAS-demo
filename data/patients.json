@@ -1,0 +1,615 @@
+{
+ "P001": {
+  "name": "Jordan Ellis",
+  "age": 66,
+  "sex": "F",
+  "mrn": "SYN-100001",
+  "conditions": [
+   {
+    "name": "Type 2 diabetes mellitus",
+    "date": "2019-06-10",
+    "status": "active"
+   },
+   {
+    "name": "Hypertension",
+    "date": "2019-06-10",
+    "status": "active"
+   },
+   {
+    "name": "Chronic kidney disease stage G3a",
+    "date": "2025-01-30",
+    "status": "active"
+   }
+  ],
+  "medications": [
+   {
+    "name": "metformin",
+    "dose": "1000 mg BID",
+    "start": "2019-06-10",
+    "stop": "2026-01-22",
+    "reason": "type 2 diabetes"
+   },
+   {
+    "name": "metformin",
+    "dose": "500 mg BID",
+    "start": "2026-01-22",
+    "stop": null,
+    "reason": "dose reduced because eGFR fell below 45"
+   },
+   {
+    "name": "lisinopril",
+    "dose": "10 mg daily",
+    "start": "2019-06-10",
+    "stop": "2024-01-18",
+    "reason": "hypertension"
+   },
+   {
+    "name": "lisinopril",
+    "dose": "20 mg daily",
+    "start": "2024-01-18",
+    "stop": null,
+    "reason": "blood pressure above goal"
+   },
+   {
+    "name": "empagliflozin",
+    "dose": "10 mg daily",
+    "start": "2025-07-17",
+    "stop": null,
+    "reason": "type 2 diabetes with CKD"
+   }
+  ],
+  "observations": {
+   "HbA1c": {
+    "unit": "%",
+    "values": [
+     [
+      "2023-01-12",
+      7.4
+     ],
+     [
+      "2023-07-20",
+      7.6
+     ],
+     [
+      "2024-01-18",
+      7.9
+     ],
+     [
+      "2024-07-25",
+      8.2
+     ],
+     [
+      "2025-01-30",
+      8.3
+     ],
+     [
+      "2025-07-17",
+      8.1
+     ],
+     [
+      "2026-01-22",
+      7.5
+     ]
+    ]
+   },
+   "eGFR": {
+    "unit": "mL/min/1.73m2",
+    "values": [
+     [
+      "2023-01-12",
+      78
+     ],
+     [
+      "2023-07-20",
+      74
+     ],
+     [
+      "2024-01-18",
+      66
+     ],
+     [
+      "2024-07-25",
+      58
+     ],
+     [
+      "2025-01-30",
+      54
+     ],
+     [
+      "2025-07-17",
+      46
+     ],
+     [
+      "2026-01-22",
+      41
+     ]
+    ]
+   },
+   "Creatinine": {
+    "unit": "mg/dL",
+    "values": [
+     [
+      "2023-01-12",
+      0.88
+     ],
+     [
+      "2023-07-20",
+      0.93
+     ],
+     [
+      "2024-01-18",
+      1.02
+     ],
+     [
+      "2024-07-25",
+      1.14
+     ],
+     [
+      "2025-01-30",
+      1.2
+     ],
+     [
+      "2025-07-17",
+      1.35
+     ],
+     [
+      "2026-01-22",
+      1.5
+     ]
+    ]
+   },
+   "Potassium": {
+    "unit": "mmol/L",
+    "values": [
+     [
+      "2023-01-12",
+      4.3
+     ],
+     [
+      "2023-07-20",
+      4.4
+     ],
+     [
+      "2024-01-18",
+      4.6
+     ],
+     [
+      "2024-07-25",
+      4.8
+     ],
+     [
+      "2025-01-30",
+      4.9
+     ],
+     [
+      "2025-07-17",
+      4.7
+     ],
+     [
+      "2026-01-22",
+      4.8
+     ]
+    ]
+   },
+   "SBP": {
+    "unit": "mmHg",
+    "values": [
+     [
+      "2023-01-12",
+      138
+     ],
+     [
+      "2023-07-20",
+      136
+     ],
+     [
+      "2024-01-18",
+      142
+     ],
+     [
+      "2024-07-25",
+      134
+     ],
+     [
+      "2025-01-30",
+      140
+     ],
+     [
+      "2025-07-17",
+      132
+     ],
+     [
+      "2026-01-22",
+      128
+     ]
+    ]
+   },
+   "DBP": {
+    "unit": "mmHg",
+    "values": [
+     [
+      "2023-01-12",
+      84
+     ],
+     [
+      "2023-07-20",
+      82
+     ],
+     [
+      "2024-01-18",
+      86
+     ],
+     [
+      "2024-07-25",
+      80
+     ],
+     [
+      "2025-01-30",
+      84
+     ],
+     [
+      "2025-07-17",
+      78
+     ],
+     [
+      "2026-01-22",
+      76
+     ]
+    ]
+   },
+   "Weight": {
+    "unit": "kg",
+    "values": [
+     [
+      "2023-01-12",
+      82.0
+     ],
+     [
+      "2023-07-20",
+      82.5
+     ],
+     [
+      "2024-01-18",
+      83.0
+     ],
+     [
+      "2024-07-25",
+      83.5
+     ],
+     [
+      "2025-01-30",
+      83.2
+     ],
+     [
+      "2025-07-17",
+      82.8
+     ],
+     [
+      "2026-01-22",
+      82.1
+     ]
+    ]
+   }
+  }
+ },
+ "P002": {
+  "name": "Morgan Reyes",
+  "age": 71,
+  "sex": "M",
+  "mrn": "SYN-100002",
+  "conditions": [
+   {
+    "name": "Heart failure with reduced ejection fraction",
+    "date": "2022-09-01",
+    "status": "active"
+   },
+   {
+    "name": "Hypertension",
+    "date": "2018-03-15",
+    "status": "active"
+   }
+  ],
+  "medications": [
+   {
+    "name": "carvedilol",
+    "dose": "12.5 mg BID",
+    "start": "2022-09-01",
+    "stop": null,
+    "reason": "heart failure"
+   },
+   {
+    "name": "lisinopril",
+    "dose": "10 mg daily",
+    "start": "2022-09-01",
+    "stop": null,
+    "reason": "heart failure and hypertension"
+   },
+   {
+    "name": "furosemide",
+    "dose": "20 mg daily",
+    "start": "2023-06-01",
+    "stop": "2025-02-11",
+    "reason": "fluid control"
+   },
+   {
+    "name": "furosemide",
+    "dose": "40 mg daily",
+    "start": "2025-02-11",
+    "stop": null,
+    "reason": "weight gain and leg edema"
+   },
+   {
+    "name": "spironolactone",
+    "dose": "25 mg daily",
+    "start": "2024-08-13",
+    "stop": "2025-02-11",
+    "reason": "heart failure"
+   },
+   {
+    "name": "spironolactone",
+    "dose": "12.5 mg daily",
+    "start": "2025-02-11",
+    "stop": null,
+    "reason": "dose halved because potassium 5.3"
+   }
+  ],
+  "observations": {
+   "BNP": {
+    "unit": "pg/mL",
+    "values": [
+     [
+      "2024-02-06",
+      310
+     ],
+     [
+      "2024-08-13",
+      420
+     ],
+     [
+      "2025-02-11",
+      690
+     ],
+     [
+      "2025-08-19",
+      380
+     ],
+     [
+      "2026-02-17",
+      290
+     ]
+    ]
+   },
+   "Potassium": {
+    "unit": "mmol/L",
+    "values": [
+     [
+      "2024-02-06",
+      4.4
+     ],
+     [
+      "2024-08-13",
+      4.6
+     ],
+     [
+      "2025-02-11",
+      5.3
+     ],
+     [
+      "2025-08-19",
+      4.8
+     ],
+     [
+      "2026-02-17",
+      4.6
+     ]
+    ]
+   },
+   "Creatinine": {
+    "unit": "mg/dL",
+    "values": [
+     [
+      "2024-02-06",
+      1.1
+     ],
+     [
+      "2024-08-13",
+      1.2
+     ],
+     [
+      "2025-02-11",
+      1.4
+     ],
+     [
+      "2025-08-19",
+      1.2
+     ],
+     [
+      "2026-02-17",
+      1.1
+     ]
+    ]
+   },
+   "Weight": {
+    "unit": "kg",
+    "values": [
+     [
+      "2024-02-06",
+      94.0
+     ],
+     [
+      "2024-08-13",
+      95.5
+     ],
+     [
+      "2025-02-11",
+      98.2
+     ],
+     [
+      "2025-08-19",
+      96.0
+     ],
+     [
+      "2026-02-17",
+      93.8
+     ]
+    ]
+   },
+   "SBP": {
+    "unit": "mmHg",
+    "values": [
+     [
+      "2024-02-06",
+      128
+     ],
+     [
+      "2024-08-13",
+      130
+     ],
+     [
+      "2025-02-11",
+      146
+     ],
+     [
+      "2025-08-19",
+      132
+     ],
+     [
+      "2026-02-17",
+      126
+     ]
+    ]
+   },
+   "DBP": {
+    "unit": "mmHg",
+    "values": [
+     [
+      "2024-02-06",
+      78
+     ],
+     [
+      "2024-08-13",
+      80
+     ],
+     [
+      "2025-02-11",
+      90
+     ],
+     [
+      "2025-08-19",
+      82
+     ],
+     [
+      "2026-02-17",
+      76
+     ]
+    ]
+   },
+   "LVEF": {
+    "unit": "%",
+    "values": [
+     [
+      "2024-02-06",
+      35
+     ],
+     [
+      "2026-02-17",
+      40
+     ]
+    ]
+   }
+  }
+ },
+ "P003": {
+  "name": "Avery Chen",
+  "age": 58,
+  "sex": "F",
+  "mrn": "SYN-100003",
+  "conditions": [
+   {
+    "name": "Primary hypothyroidism",
+    "date": "2024-03-05",
+    "status": "active"
+   },
+   {
+    "name": "Osteopenia",
+    "date": "2025-12-10",
+    "status": "active"
+   }
+  ],
+  "medications": [
+   {
+    "name": "levothyroxine",
+    "dose": "50 mcg daily",
+    "start": "2024-03-05",
+    "stop": "2024-06-04",
+    "reason": "hypothyroidism"
+   },
+   {
+    "name": "levothyroxine",
+    "dose": "75 mcg daily",
+    "start": "2024-06-04",
+    "stop": null,
+    "reason": "TSH still elevated"
+   },
+   {
+    "name": "calcium carbonate",
+    "dose": "500 mg daily",
+    "start": "2026-01-20",
+    "stop": null,
+    "reason": "osteopenia"
+   }
+  ],
+  "observations": {
+   "TSH": {
+    "unit": "mIU/L",
+    "values": [
+     [
+      "2024-03-05",
+      9.8
+     ],
+     [
+      "2024-06-04",
+      6.1
+     ],
+     [
+      "2024-10-01",
+      3.2
+     ],
+     [
+      "2025-10-07",
+      2.4
+     ],
+     [
+      "2026-04-14",
+      6.8
+     ]
+    ]
+   },
+   "Weight": {
+    "unit": "kg",
+    "values": [
+     [
+      "2024-03-05",
+      71.0
+     ],
+     [
+      "2024-06-04",
+      71.4
+     ],
+     [
+      "2024-10-01",
+      71.9
+     ],
+     [
+      "2025-10-07",
+      72.5
+     ],
+     [
+      "2026-04-14",
+      72.8
+     ]
+    ]
+   }
+  }
+ }
+}

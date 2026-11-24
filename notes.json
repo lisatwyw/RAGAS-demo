@@ -1,0 +1,86 @@
+[
+ {
+  "patient_id": "P001",
+  "date": "2023-07-20",
+  "type": "progress note",
+  "text": "MRN SYN-100001. Routine follow-up for type 2 diabetes and hypertension. HbA1c 7.6%, eGFR 74. Blood pressure 136/82. Stable on metformin 1000 mg BID and lisinopril 10 mg. Continue current therapy."
+ },
+ {
+  "patient_id": "P001",
+  "date": "2024-01-18",
+  "type": "progress note",
+  "text": "MRN SYN-100001. Follow-up for diabetes and hypertension. HbA1c 7.9%, BP 142/86, eGFR 66. Patient admits missing evening metformin doses about twice a week because of shift work. Lisinopril increased from 10 mg to 20 mg daily for blood pressure above goal. Adherence strategies discussed."
+ },
+ {
+  "patient_id": "P001",
+  "date": "2025-01-30",
+  "type": "progress note",
+  "text": "MRN SYN-100001. eGFR 54 today and 58 on 2024-07-25, both below 60 more than three months apart, so chronic kidney disease stage G3a is documented. Urine albumin testing has not yet been obtained. Potassium 4.9, upper normal on lisinopril 20 mg; recheck planned. NSAID avoidance and hydration reviewed."
+ },
+ {
+  "patient_id": "P001",
+  "date": "2025-07-17",
+  "type": "progress note",
+  "text": "MRN SYN-100001. eGFR 46, HbA1c 8.1%. Empagliflozin 10 mg daily started for glycemic control and kidney protection. Patient counselled that a small early dip in eGFR can occur after starting; renal function to be rechecked at the next visit."
+ },
+ {
+  "patient_id": "P001",
+  "date": "2026-01-22",
+  "type": "progress note",
+  "text": "MRN SYN-100001. eGFR 41, now in the G3b range. HbA1c improved to 7.5%. Metformin reduced from 1000 mg BID to 500 mg BID because eGFR fell below 45. Empagliflozin tolerated, no genital infections reported. Blood pressure 128/76."
+ },
+ {
+  "patient_id": "P002",
+  "date": "2024-08-13",
+  "type": "cardiology note",
+  "text": "MRN SYN-100002. Heart failure with reduced ejection fraction, LVEF 35% on echo. Weight 95.5 kg, BNP 420, potassium 4.6. Spironolactone 25 mg daily started. Potassium and creatinine to be rechecked at the next visit."
+ },
+ {
+  "patient_id": "P002",
+  "date": "2025-02-11",
+  "type": "cardiology note",
+  "text": "MRN SYN-100002. Weight up to 98.2 kg from 95.5 kg with mild leg edema; BNP 690. Furosemide increased from 20 mg to 40 mg daily. Potassium 5.3, which is elevated; spironolactone reduced from 25 mg to 12.5 mg daily. Dietary potassium, salt and NSAID avoidance reviewed."
+ },
+ {
+  "patient_id": "P002",
+  "date": "2025-08-19",
+  "type": "cardiology note",
+  "text": "MRN SYN-100002. Weight 96.0 kg, BNP 380, potassium 4.8. Leg edema resolved. Continue furosemide 40 mg and spironolactone 12.5 mg."
+ },
+ {
+  "patient_id": "P002",
+  "date": "2026-02-17",
+  "type": "cardiology note",
+  "text": "MRN SYN-100002. Weight 93.8 kg, BNP 290, potassium 4.6. Repeat echo shows LVEF 40%. Symptoms stable, NYHA class II. No medication changes."
+ },
+ {
+  "patient_id": "P003",
+  "date": "2024-03-05",
+  "type": "endocrinology note",
+  "text": "MRN SYN-100003. Fatigue and cold intolerance. TSH 9.8 mIU/L. Primary hypothyroidism diagnosed. Levothyroxine 50 mcg daily started; advised to take on an empty stomach."
+ },
+ {
+  "patient_id": "P003",
+  "date": "2024-06-04",
+  "type": "endocrinology note",
+  "text": "MRN SYN-100003. TSH 6.1, still above range. Levothyroxine increased from 50 mcg to 75 mcg daily. Recheck TSH in about 6 to 8 weeks."
+ },
+ {
+  "patient_id": "P003",
+  "date": "2025-10-07",
+  "type": "endocrinology note",
+  "text": "MRN SYN-100003. TSH 2.4 on levothyroxine 75 mcg. Symptoms resolved. Continue current dose."
+ },
+ {
+  "patient_id": "P003",
+  "date": "2025-12-10",
+  "type": "primary care note",
+  "text": "MRN SYN-100003. DXA shows osteopenia. Calcium carbonate 500 mg daily with vitamin D recommended, started 2026-01-20."
+ },
+ {
+  "patient_id": "P003",
+  "date": "2026-04-14",
+  "type": "endocrinology note",
+  "text": "MRN SYN-100003. TSH 6.8, higher than 2.4 in October 2025. Patient reports taking the new calcium tablet together with levothyroxine in the morning. Counselled to separate them by about 4 hours. Repeat TSH in 6 to 8 weeks."
+ }
+]

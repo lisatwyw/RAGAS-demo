@@ -3,3 +3,4 @@
 __pycache__/
 *.pyc
 ragas_scores.csv
+.env
